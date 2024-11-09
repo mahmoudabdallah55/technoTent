@@ -1632,10 +1632,11 @@ blockquote.blockquote-style-1:before {
 .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
   box-shadow: inherit;
   outline: inherit;
-  color: #ffffff;
-  border-image: linear-gradient(to right, #3663D8, #77BEFF) 1;
-  background-color: #77BEFF;
-  background: linear-gradient(170deg, #3663D8 0%, #77BEFF 100%);
+  color: #171F45;
+  /* border-image: linear-gradient(to right, #3663D8, #77BEFF) 1; */
+  /* background-color: #77BEFF; */
+  /* background: linear-gradient(170deg, #3663D8 0%, #77BEFF 100%); */
+  background-color: #49A136;
 }
 
 .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed):after {
