@@ -88,6 +88,9 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .bs-class {
   margin-left: -55px !important;
 }
+.logo-texte {
+  color:#BB923E;
+}
 
 
 
@@ -425,6 +428,7 @@ blockquote {
 .logo-image {
   width: 100px;
   height: 100px;
+  
 }
 
 blockquote cite {
@@ -5103,7 +5107,8 @@ form.form-dark .form-control:focus {
 
 .header-default .site-logo .navbar-brand {
   display: block;
-  padding: 30px 0;
+  /* padding: 30px 0; */
+  margin-left: 65px;
 }
 
 .header-default .site-menu .main-menu {
@@ -5531,7 +5536,7 @@ form.form-dark .form-control:focus {
 .offcanvas.main-menu-offcanvas .offcanvas-body .body-inner {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 80%;
   gap: 30px;
   justify-content: space-between;
 }
@@ -5590,7 +5595,7 @@ form.form-dark .form-control:focus {
   padding: 8px 0;
   font-size: 18px;
   font-weight: 400;
-  color: #D4D6D7;
+  color: #57B4c7;
   /* color: #000; */
 }
 
@@ -5601,7 +5606,7 @@ form.form-dark .form-control:focus {
 
 .offcanvas.main-menu-offcanvas .offcanvas-body .navbar .navbar-nav .nav-item:has(.active) > .nav-link {
   color: #77BEFF;
-  color: #070707;
+  color: #BB923E;
 }
 
 /*---------------------------------*/
@@ -5648,7 +5653,7 @@ form.form-dark .form-control:focus {
 
 .offcanvas.sidepanel-offcanvas .offcanvas-body .about-info p {
   margin-bottom: 0;
-  color: #ffffff;
+  color: #ee0d0d;
 }
 
 .offcanvas.sidepanel-offcanvas .offcanvas-body .socail-info ul {
@@ -5665,11 +5670,11 @@ form.form-dark .form-control:focus {
   align-items: center;
   gap: 10px;
   font-size: 22px;
-  color: #ffffff;
+  color: #ee0d0d;
 }
 
 .offcanvas.sidepanel-offcanvas .offcanvas-body .socail-info ul li a:hover {
-  color: #000000;
+  color: #BB923E;
 }
 
 .offcanvas.sidepanel-offcanvas .offcanvas-body .socail-info ul li i {
@@ -5711,7 +5716,7 @@ form.form-dark .form-control:focus {
 .offcanvas-body .contact-info .number {
   font-size: 30px;
   font-weight: 600;
-  color: #ffffff;
+  color: #ee0d0d;
   letter-spacing: -2px;
 }
 
@@ -5719,11 +5724,11 @@ form.form-dark .form-control:focus {
   display: flex;
   align-items: center;
   gap: 5px;
-  color: #ffffff;
+  color: #ee0d0d;
 }
 
 .offcanvas-body .contact-info .text {
-  color: rgba(255, 255, 255, 0.8);
+  color:#ee0d0d;
 }
 
 .main-menu-offcanvas .offcanvas-body .contact-info {
@@ -5732,13 +5737,13 @@ form.form-dark .form-control:focus {
 }
 
 .main-menu-offcanvas .offcanvas-body .contact-info .mail {
-  background: linear-gradient(130deg, #3663D8 0%, #77BEFF 100%);
+  background: #ee0d0d;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .main-menu-offcanvas .offcanvas-body .contact-info .text {
-  color: #ffffff;
+  color: #ee0d0d;
 }
 
 /*---------------------------------*/
@@ -5807,7 +5812,7 @@ form.form-dark .form-control:focus {
   transform: translate(51px, -50%);
   width: 100%;
   height: 3px;
-  background-color: #000000;
+  background-color: #BB923E;
   opacity: 0;
   transition-duration: 0.5s;
   transition-property: transform, opacity;
@@ -5820,7 +5825,7 @@ form.form-dark .form-control:focus {
   top: -11px;
   width: 100%;
   height: 3px;
-  background-color: #000000;
+  background-color: #BB923E;
   transition-duration: 0.5s;
   transition-property: transform, opacity;
   transition-timing-function: ease;
@@ -5834,7 +5839,7 @@ form.form-dark .form-control:focus {
   transform: translate(101px, 0);
   width: 100%;
   height: 3px;
-  background-color: #000000;
+  background-color: #BB923E;
   transition-property: transform, opacity;
   transition-timing-function: ease;
   transition-duration: 0.4s;
@@ -6134,10 +6139,16 @@ form.form-dark .form-control:focus {
 }
 
 .main-banner.main-banner-2 .banner-inner .banner-conent .conent .small-text {
-  max-width: 450px;
-  margin-bottom: 0px;
-  margin-top: 20px;
-  margin-left: 13px;
+
+
+  /* max-width: 450px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 13px; */
+    max-width: 450px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 13px
 }
 
 .main-banner.main-banner-2 .banner-inner .banner-conent .conent .title {
@@ -6202,7 +6213,7 @@ form.form-dark .form-control:focus {
 @media (max-width: 1399px) {
   /* Main Banner 1 ----------*/
   .main-banner-1 .banner-title {
-    font-size: 250px;
+    font-size: 187px;
     line-height: 270px;
   }
   .main-banner-1 .banner-content h2 {
@@ -6227,7 +6238,7 @@ form.form-dark .form-control:focus {
     padding-top: 180px;
   }
   .main-banner-1 .banner-title {
-    font-size: 190px;
+    font-size: 125px;
     line-height: 210px;
   }
   .main-banner-1 .rotate-img {
@@ -6263,7 +6274,7 @@ form.form-dark .form-control:focus {
     padding-top: 125px;
   }
   .main-banner-1 .banner-title {
-    font-size: 140px;
+    font-size: 110px;
     line-height: 160px;
   }
   .main-banner-1 .rotate-img {
@@ -6311,17 +6322,19 @@ form.form-dark .form-control:focus {
     margin: 0 auto;
   }
   .main-banner-1 .banner-title {
-    font-size: 90px;
+    font-size: 75px;
     line-height: 110px;
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
+    margin-left: 0px;
+
   }
   .main-banner-1 .banner-content {
     text-align: center;
   }
   .main-banner-1 .banner-content h2 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 38px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -6341,8 +6354,9 @@ form.form-dark .form-control:focus {
     padding: 0px;
   }
   .main-banner.main-banner-2 .banner-inner .banner-conent .title {
-    font-size: 62px;
-    line-height: 72px;
+    font-size: 140px;
+    line-height: 150px;
+    margin-left: 11px;
   }
   .main-banner.main-banner-2 .banner-inner .banner-conent .conent .small-text {
     order: 1;
@@ -6352,6 +6366,8 @@ form.form-dark .form-control:focus {
     margin-left: 0px;
   }
 }
+
+
 
 @media (max-width: 575px) {
   /* Main Banner 1 ----------*/
@@ -6390,8 +6406,9 @@ form.form-dark .form-control:focus {
 @media (max-width: 479px) {
   /* Main Banner 1 ----------*/
   .main-banner-1 .banner-title {
-    font-size: 70px;
+    font-size: 54px;
     line-height: 90px;
+    margin-left: -13px;
   }
 }
 
