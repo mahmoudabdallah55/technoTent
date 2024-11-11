@@ -86,7 +86,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   justify-content: flex-start;
 }
 .bs-class {
-  margin-left: -55px !important;
+  /* margin-left: -55px !important; */
 }
 .logo-texte {
   color:#BB923E;
