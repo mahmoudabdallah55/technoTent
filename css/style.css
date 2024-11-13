@@ -4574,8 +4574,20 @@ form.form-dark .form-control:focus {
 .marquee-wrapper .marquee-inner .marquee-item .title {
   position: relative;
   top: 3px;
+  font-family: "Russo One", sans-serif;
+  font-size: 42px !important;
+  line-height: normal;
+  color: transparent;
+  -webkit-text-stroke: 1px #7BC95E;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  
+}
+.marquee-wrapper .marquee-inner .marquee-item .title-tourEsco {
+  position: relative;
+  top: 3px;
   /* font-family: "Russo One", sans-serif; */
-  /* font-size: 42px; */
+  font-size: 19px;
   /* line-height: normal; */
   /* color: transparent; */
   /* -webkit-text-stroke: 1px #7BC95E; */
@@ -4586,7 +4598,7 @@ form.form-dark .form-control:focus {
 
 .marquee-wrapper .marquee-inner .marquee-item:hover .title {
   /* color: #ffffff; */
-  /* color: #BB923E; */
+  color: #BB923E;
 }
 
 .marquee-wrapper.marquee-rotate {
