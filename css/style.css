@@ -2625,7 +2625,7 @@ blockquote.blockquote-style-1:before {
   width: 85%;
   height: 100%;
   border-radius: 100%;
-  background-color: #000000;
+  /* background-color: #183913; */
   /* background-color: #000000; */
   position: absolute;
   left: inherit;
@@ -3848,7 +3848,7 @@ div[cursor-type="arrow"] .owl-carousel,
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-  color: #000;
+  color: #B2C144;
   transition: all 0.35s ease-in-out;
 }
 
@@ -4560,7 +4560,17 @@ form.form-dark .form-control:focus {
   width: 100%;
   position: relative;
   white-space: nowrap;
-  animation: marquee 30s linear infinite;
+  animation: marquee 10s linear infinite ;
+  padding-right: 0px;
+}
+@media(max-width:800px) {
+  .marquee-wrapper .marquee-inner
+  {
+    animation: marquee 3s linear infinite;
+    gap: 10px;
+
+  }
+
 }
 
 .marquee-wrapper .marquee-inner .marquee-item {
@@ -4581,6 +4591,7 @@ form.form-dark .form-control:focus {
   -webkit-text-stroke: 1px #7BC95E;
   transition: all 0.3s ease-in-out;
   font-size: 20px;
+  /* animation: marquee 10s linear infinite  */
   
 }
 .marquee-wrapper .marquee-inner .marquee-item .title-tourEsco {
@@ -4593,6 +4604,8 @@ form.form-dark .form-control:focus {
   /* -webkit-text-stroke: 1px #7BC95E; */
   transition: all 0.3s ease-in-out;
   font-size: 20px;
+  /* animation: marquee 0.3s linear infinite */
+ 
   
 }
 
@@ -4632,13 +4645,25 @@ form.form-dark .form-control:focus {
 /*------------------------
   Keyframes Animation
 -------------------------*/
-@keyframes marquee {
+/* @keyframes marquee {
+ 
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translatex(-100%);
   }
+ 
+  
+ 
+} */
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  
+  100% { transform: translateX(-100%); }
+  
 }
 
 @keyframes marqueeRight {
@@ -5592,7 +5617,7 @@ form.form-dark .form-control:focus {
   font-size: 20px;
   font-weight: 500;
   /* color: #ffffff; */
-  color: #e00a0a;
+  color: #57B4c7;
   align-items: center;
   justify-content: space-between;
 }
@@ -5673,7 +5698,7 @@ form.form-dark .form-control:focus {
 
 .offcanvas.sidepanel-offcanvas .offcanvas-body .about-info p {
   margin-bottom: 0;
-  color: #ee0d0d;
+  color: #57B4c7;
 }
 
 .offcanvas.sidepanel-offcanvas .offcanvas-body .socail-info ul {
@@ -5690,7 +5715,7 @@ form.form-dark .form-control:focus {
   align-items: center;
   gap: 10px;
   font-size: 22px;
-  color: #ee0d0d;
+  color: #57B4c7;
 }
 
 .offcanvas.sidepanel-offcanvas .offcanvas-body .socail-info ul li a:hover {
@@ -5736,7 +5761,7 @@ form.form-dark .form-control:focus {
 .offcanvas-body .contact-info .number {
   font-size: 30px;
   font-weight: 600;
-  color: #ee0d0d;
+  color: #57B4c7;
   letter-spacing: -2px;
 }
 
@@ -5744,11 +5769,11 @@ form.form-dark .form-control:focus {
   display: flex;
   align-items: center;
   gap: 5px;
-  color: #ee0d0d;
+  color: #57B4c7;
 }
 
 .offcanvas-body .contact-info .text {
-  color:#ee0d0d;
+  color:#57B4c7;
 }
 
 .main-menu-offcanvas .offcanvas-body .contact-info {
@@ -5757,13 +5782,13 @@ form.form-dark .form-control:focus {
 }
 
 .main-menu-offcanvas .offcanvas-body .contact-info .mail {
-  background: #ee0d0d;
+  background: #57B4c7;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .main-menu-offcanvas .offcanvas-body .contact-info .text {
-  color: #ee0d0d;
+  color: #57B4c7;
 }
 
 /*---------------------------------*/
