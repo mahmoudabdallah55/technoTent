@@ -98,6 +98,10 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .des {
   color: #e69d0c!important;
 }
+.sf-logo {
+  width: 200px !important;
+  height: 200px !important;
+}
 
 
 
