@@ -3810,6 +3810,11 @@ div[cursor-type="arrow"] .owl-carousel,
     right: -15px;
     top: -3px;
   }
+  .btn {
+    width: 110px;
+  height: 110px;
+
+  }
 }
 
 /*****************************
@@ -5157,7 +5162,7 @@ form.form-dark .form-control:focus {
 .header-default .site-logo .navbar-brand {
   display: block;
   /* padding: 30px 0; */
-  margin-left: 65px;
+  /* margin-left: 65px; */
 }
 
 .header-default .site-menu .main-menu {
