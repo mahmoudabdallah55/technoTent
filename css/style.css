@@ -103,6 +103,9 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   height: 200px !important;
 }
 
+.s-life-image {
+ max-width: 90% !important ;
+}
 
 
 
@@ -4570,12 +4573,14 @@ form.form-dark .form-control:focus {
   position: relative;
   white-space: nowrap;
   animation: marquee 10s linear infinite ;
-  padding-right: 0px;
+  padding-right: px;
+  /* padding-left:100%;   */
 }
 @media(max-width:800px) {
   .marquee-wrapper .marquee-inner
   {
-    animation: marquee 3s linear infinite;
+    animation: marquee 2s linear infinite;
+    /* gap: 10px; */
     gap: 10px;
 
   }
@@ -4671,16 +4676,18 @@ form.form-dark .form-control:focus {
 @keyframes marquee {
   0% { transform: translateX(100%); }
   
-  100% { transform: translateX(-100%); }
+  100% { transform: translateX(-100%) }
   
 }
 
 @keyframes marqueeRight {
   0% {
-    transform: translateX(-100%);
+    /* transform: translateX(-100%); */
+    transform: translateX(100%);
   }
   100% {
-    transform: translatex(0);
+    /* transform: translatex(0); */
+    transform: translatex(-100%);
   }
 }
 
