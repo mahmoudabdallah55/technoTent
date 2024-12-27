@@ -106,6 +106,9 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .s-life-image {
  max-width: 90% !important ;
 }
+.arrow-color-phases {
+  color: #00D1FF;
+}
 
 
 
@@ -2240,14 +2243,14 @@ blockquote.blockquote-style-1:before {
   background: linear-gradient(130deg, #3663D8, #77BEFF, #00D1FF) 100%;
 }
 
-.service-wrapper.service-style-1:hover:before {
+ .service-wrapper.service-style-1:hover:before {
   opacity: 1;
 }
 
-.service-wrapper.service-style-1:hover .service-icon {
+/* .service-wrapper.service-style-1:hover .service-icon {
   margin-top: -70px;
   opacity: 0;
-}
+} */
 
 .service-wrapper.service-style-1:hover .bg-icon {
   opacity: 0.2;
@@ -5153,12 +5156,13 @@ form.form-dark .form-control:focus {
 .header-default.header-absolute {
   position: absolute;
   left: 0;
-  background: transparent;
+  /* background: transparent; */
 }
 
 .header-default .header-inner {
   display: flex;
   gap: 50px;
+ 
   justify-content: space-between;
 }
 
@@ -5280,11 +5284,13 @@ form.form-dark .form-control:focus {
 }
 
 .header-default.is-sticky {
-  position: fixed;
+  /* position: fixed; */
+  position:sticky;
   background-color: #000000;
   transition: all 0.3s ease-in-out;
+  /* transition: all 5s ease-in-out; */
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
-  top: -110px;
+  top: -130px;
   animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
 
