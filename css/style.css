@@ -109,8 +109,52 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .arrow-color-phases {
   color: #00D1FF;
 }
+.project-number {
+  color:#BB923E;
+}
+.number-des 
+{
+  border: 1px solid #57B4c7;
+  padding: 10px;
+  color: #57B4c7;
+}
+.number 
+{
+  font-weight: bold;
+}
+.project-texet{
+  max-width: 30px;
+  font-size: 25px;
 
+}
+.Certified-number {
+  color: #49A136;
+  font-size: 40px;
+  border-bottom: 2px solid  #49A136;
+  /* padding-bottom: 0px; */
+  font-weight: bold;
 
+}
+.Certified {
+  border: 1px solid #49A136;
+  padding: 10px;
+  color: #49A136;
+}
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed).project-open {
+  box-shadow: inherit;
+  outline: inherit;
+  color: #171F45;
+  /* border-image: linear-gradient(to right, #3663D8, #77BEFF) 1; */
+  /* background-color: #77BEFF; */
+  /* background: linear-gradient(170deg, #3663D8 0%, #77BEFF 100%); */
+  background-color: #77BEFF;
+}
+@media(max-width: 575px) {
+  .project-texet {
+    max-width: 100%;
+    font-size: 25px;
+  }
+}
 
 
 
