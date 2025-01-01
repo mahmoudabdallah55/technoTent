@@ -177,7 +177,17 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   border-radius: 20px;
   color: white;
 }
+.pricing-title {
+  color: #006666;
+  font-size: 24px;
+  max-width: 312px;
+  margin: auto;
+  line-height: 2;
+  margin-bottom: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
 
+}
 
 
 .navgtion-phayes {
@@ -455,8 +465,12 @@ label {
 }
 
 .section-title .title {
-  margin-bottom: 25px;
-  text-transform: capitalize;
+  padding: 35px 30px;
+  background: #006666;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  color: white;
+  width: fit-content;
 }
 
 .section-title p {
@@ -3686,9 +3700,11 @@ div[cursor-type="arrow"] .owl-carousel,
 }
 
 .pgs-accordion .accordion-item .accordion-header .package-price .price {
-  font-size: 38px;
+  font-size: 18px;
   line-height: 48px;
   margin: 0;
+  color: #00B050;
+
 }
 
 .pgs-accordion .accordion-item .accordion-header .package-price .period {
@@ -3697,7 +3713,8 @@ div[cursor-type="arrow"] .owl-carousel,
 
 .pgs-accordion .accordion-item .accordion-header .package-title {
   margin-bottom: 5px;
-  color: #5B9BD5;
+  color: #00B050;
+  font-size: 20px;
 }
 
 .pgs-accordion .accordion-item .accordion-content {
