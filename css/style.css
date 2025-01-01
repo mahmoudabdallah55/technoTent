@@ -163,6 +163,9 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   .project-item  {
     border-bottom: 2px solid #49A136;
   }
+  .inner-header .title {
+    font-size: 25px !important;
+  }
 
 
 
