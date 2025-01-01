@@ -125,6 +125,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .project-texet{
   max-width: 30px;
   font-size: 25px;
+  margin-top: 15px;
 
 }
 .Certified-number {
@@ -133,12 +134,16 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   border-bottom: 2px solid  #49A136;
   /* padding-bottom: 0px; */
   font-weight: bold;
+  margin-bottom: 10px !important;
 
 }
 .Certified {
   border: 1px solid #49A136;
   padding: 10px;
   color: #49A136;
+}
+.Certified-button {
+  margin-top: 17px;
 }
 .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed).project-open {
   box-shadow: inherit;
@@ -154,7 +159,82 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
     max-width: 100%;
     font-size: 25px;
   }
+
+  .project-item  {
+    border-bottom: 2px solid #49A136;
+  }
+
+
+
 }
+.price-header {
+  padding: 35px 40px;
+  background: #006666;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  color: white;
+}
+
+
+
+.navgtion-phayes {
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+  margin-top: 50px;
+} */
 
 
 
@@ -3614,6 +3694,7 @@ div[cursor-type="arrow"] .owl-carousel,
 
 .pgs-accordion .accordion-item .accordion-header .package-title {
   margin-bottom: 5px;
+  color: #5B9BD5;
 }
 
 .pgs-accordion .accordion-item .accordion-content {
@@ -3682,8 +3763,8 @@ div[cursor-type="arrow"] .owl-carousel,
 
 .pgs-accordion .accordion-item.is-active {
   border: none;
-  background-color: #77BEFF;
-  background: linear-gradient(130deg, #3663D8 0%, #77BEFF 100%);
+  background-color: #006666;
+  /* background: linear-gradient(130deg, #3663D8 0%, #77BEFF 100%); */
   /* Accordion Active Content */
 }
 
@@ -4721,7 +4802,7 @@ form.form-dark .form-control:focus {
 } */
 
 @keyframes marquee {
-  0% { transform: translateX(100%); }
+  0% { transform: translateX(0); }
   
   100% { transform: translateX(-100%) }
   
@@ -5186,22 +5267,23 @@ form.form-dark .form-control:focus {
 *****************************/
 .header-default {
   width: 100%;
-  position: relative;
+  /* position: relative; */
+  position: fixed;
   z-index: 9;
   padding: 0 80px;
   background-color: #000000;
-  border-bottom: 1px solid #77BEFF;
+  /* border-bottom: 1px solid #77BEFF; */
   /* Site Main Logo */
   /* Site Main Menu */
   /* Site Action Button */
   /* Sticky Header */
 }
 
-.header-default.header-absolute {
+/* .header-default.header-absolute {
   position: absolute;
   left: 0;
-  /* background: transparent; */
-}
+  background: transparent;
+} */
 
 .header-default .header-inner {
   display: flex;
@@ -5327,24 +5409,24 @@ form.form-dark .form-control:focus {
   justify-content: flex-end;
 }
 
-.header-default.is-sticky {
-  /* position: fixed; */
+/* .header-default.is-sticky {
+  position: fixed;
   position:sticky;
   background-color: #000000;
   transition: all 0.3s ease-in-out;
-  /* transition: all 5s ease-in-out; */
+  transition: all 5s ease-in-out;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
   top: -130px;
   animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
-}
+} */
 
-.header-default.is-sticky .site-logo .navbar-brand {
+/* .header-default.is-sticky .site-logo .navbar-brand {
   padding: 15px 0;
-}
+} */
 
-.header-default.is-sticky.sticky-show {
+/* .header-default.is-sticky.sticky-show {
   top: 0;
-}
+} */
 
 /*---------------------------------*/
 /* Header Style 2 */
@@ -6004,6 +6086,7 @@ form.form-dark .form-control:focus {
   color: #ffffff;
   font-size: 42px;
   margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 /*====================================================*/
@@ -6064,7 +6147,7 @@ form.form-dark .form-control:focus {
   }
   .header-default .site-logo .navbar-brand {
     display: block;
-    padding: 20px 0;
+    /* padding: 20px 0; */
   }
   .offcanvas.menu-overlay-offcanvas .offcanvas-close {
     z-index: 2;
@@ -6527,11 +6610,11 @@ form.form-dark .form-control:focus {
   Layout
 *****************************/
 /* Sticky column */
-.is-sticky {
+/* .is-sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 130px;
-}
+} */
 
 .text-accent-bg {
   background-color: #000000;
