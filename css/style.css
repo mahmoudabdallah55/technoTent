@@ -193,8 +193,16 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .navgtion-phayes {
   margin-top: 70px;
 }
-
-
+ 
+.price-title {
+  padding: 13px 30px;
+  background: #006666;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  color: white !important;
+  width: fit-content;
+  
+}
 
 
 
@@ -463,7 +471,7 @@ label {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+/* 
 .section-title .title {
   padding: 35px 30px;
   background: #006666;
@@ -471,7 +479,7 @@ label {
   border-radius: 20px;
   color: white;
   width: fit-content;
-}
+} */
 
 .section-title p {
   font-size: 20px;
