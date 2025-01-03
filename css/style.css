@@ -205,8 +205,24 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   
 }
 
-
-
+.contact {
+  padding: 10px 40px;
+  background-color: #006666;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: fit-content;
+  font-size: 30px !important;
+  color: black !important;
+}
+.contact:hover {
+  color: white !important;
+}
+.contact-image {
+  width: 100%;
+}
+.contact-des,input::placeholder,textarea::placeholder {
+  color: #00B050 !important;
+} 
 
 
 
