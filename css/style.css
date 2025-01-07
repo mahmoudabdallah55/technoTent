@@ -310,6 +310,10 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 }
 
+.section-padding
+{
+  padding: 0px !important;
+}
 
 
 
