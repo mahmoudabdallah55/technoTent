@@ -312,9 +312,11 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 .section-padding
 {
-  padding: 0px !important;
+  padding: 0px !;
 }
-
+.contact-image {
+  height: 441px;
+}
 
 
 
@@ -4825,8 +4827,8 @@ form.form-dark .form-control:focus {
   width: 100%;
   position: relative;
   white-space: nowrap;
-  animation: marquee 10s linear infinite ;
-  padding-right: px;
+  animation: marquee 5s linear infinite ;
+  padding-right:20 px;
   /* padding-left:100%;   */
 }
 @media(max-width:800px) {
@@ -4927,7 +4929,7 @@ form.form-dark .form-control:focus {
 } */
 
 @keyframes marquee {
-  0% { transform: translateX(0); }
+  0% { transform: translateX(100%); }
   
   100% { transform: translateX(-100%) }
   
