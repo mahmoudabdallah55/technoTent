@@ -324,9 +324,20 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   top: -108px !important;
 } */
 
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+::-webkit-scrollbar-track {
+  background: #77BEFF;
+}
 
-
+::-webkit-scrollbar-thumb {
+  background: #BB923E;
+}
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
 
 
 
