@@ -152,7 +152,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   /* border-image: linear-gradient(to right, #3663D8, #77BEFF) 1; */
   /* background-color: #77BEFF; */
   /* background: linear-gradient(170deg, #3663D8 0%, #77BEFF 100%); */
-  background-color: #77BEFF;
+  /* background-color: #77BEFF; */
 }
 @media(max-width: 575px) {
   .project-texet {
@@ -213,6 +213,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   width: fit-content;
   font-size: 30px !important;
   color: black !important;
+  font-weight: bold;
 }
 .contact:hover {
   color: white !important;
@@ -220,7 +221,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 .contact-image {
   width: 100%;
 }
-.contact-des,input::placeholder,textarea::placeholder {
+.contact-des,input::placeholder,textarea::placeholder,.textarea-label {
   color: #00B050 !important;
 } 
 
@@ -277,17 +278,37 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 /* silder */
 
+.header-side-title {
+  border-top: 4px solid #006666 !important;
+  border-right: 4px solid #006666 !important;
+  border-left: 4px solid #006666 !important;
+  color: #006666 !important;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px !important;
+  background-image: linear-gradient(#ffffff22,#0000);
+
+}
+.project-title {
+  color: #5B9BD5 !important;
+}
+
+.project-image {
+  border-bottom: 1px solid  #5B9BD5 ;
+}
 
 
 
 
 
+.w-100 {
+  max-width: 100% !important;
+}
 
+.consult-list li  {
+  margin: 8px 0px;
 
-
-
-
-
+}
 
 
 
@@ -1007,11 +1028,14 @@ blockquote.blockquote-style-1:before {
 /* Section Margin Padding */
 /*----------------------------*/
 .space-ptb {
-  padding: 90px 0;
+  padding: 50px 0;
 }
+/* .space-pt {
+  padding: 50px 0;
+} */
 
 .space-pt {
-  padding: 150px 0 0;
+  padding: 90px 0 0;
 }
 
 .space-pb {
@@ -1019,7 +1043,7 @@ blockquote.blockquote-style-1:before {
 }
 
 .space-medium-ptb {
-  padding: 90px 0;
+  padding: 150px 0;
 }
 
 .space-medium-pt {
@@ -7182,6 +7206,7 @@ form.form-dark .form-control:focus {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: auto;
+ 
 }
 
 .ellipse-bottom {

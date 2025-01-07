@@ -401,182 +401,126 @@
           Services -->
 
         </div>
-      </div>
+
 <!-- faq -->
 
-      <section class="space-pt ellipse-top">
-        <div class="space-pb ellipse-bottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <div class="section-title">
-                  <span class="sub-title justify-content-center"><img class="img-fluid" src="images/subtitle-icon.png" alt=""> FAQ</span>
-                  <h2 class="title mb-0">Frequently Django Asked Questions</h2>
-                </div>
+<section class="space-pt ellipse-top">
+  <div class="space-pb ellipse-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="section-title">
+            <span class="sub-title justify-content-center"><img class="img-fluid" src="images/subtitle-icon.png" alt=""> FAQ</span>
+            <h2 class="title mb-0">Frequently Django Asked Questions</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="accordion" id="pgsaccordion">
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is Django?</button>
+              </h5>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#pgsaccordion">
+                <div class="accordion-body">Django is a high-level Python web framework that simplifies web development by providing tools for handling tasks like database interaction, user authentication, URL routing, and more.</div>
               </div>
             </div>
-
-            <div class="row">
-              <div class="col-md-6">
-                <div class="accordion" id="pgsaccordion">
-                  <div class="accordion-item">
-                    <h5 class="accordion-header" id="headingOne">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is Django?</button>
-                    </h5>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#pgsaccordion">
-                      <div class="accordion-body">Django is a high-level Python web framework that simplifies web development by providing tools for handling tasks like database interaction, user authentication, URL routing, and more.</div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h5 class="accordion-header" id="headingTwo">
-                      <button
-                      class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      What are the main features of Django?
-                      </button>
-                    </h5>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#pgsaccordion">
-                      <div class="accordion-body">MVC/MVT architecture
-                        ORM for database interaction
-                        Built-in admin panel
-                        Middleware support
-                        Security features (e.g., CSRF, XSS protection)
-                        Template system</div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h5 class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What is the difference between MVC and MVT in Django?</button>
-                    </h5>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#pgsaccordion">
-                      <div class="accordion-body">C#
-                        Django follows the Model-View-Template (MVT) pattern:
-
-                        Model: Manages data and database interactions.
-                        View: Handles business logic and connects the model to the template.
-                        Template: Displays the data to the user in the desired format.</div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h5 class="accordion-header" id="headingFour">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">What is Django ORM?</button>
-                    </h5>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#pgsaccordion">
-                      <div class="accordion-body">Django ORM (Object-Relational Mapping) allows developers to interact with the database using Python objects instead of writing raw SQL queries.</div>
-                    </div>
-                  </div>
-                </div>
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingTwo">
+                <button
+                class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What are the main features of Django?
+                </button>
+              </h5>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#pgsaccordion">
+                <div class="accordion-body">MVC/MVT architecture
+                  ORM for database interaction
+                  Built-in admin panel
+                  Middleware support
+                  Security features (e.g., CSRF, XSS protection)
+                  Template system</div>
               </div>
-              <div class="col-md-6 mt-4 mt-md-0">
-                <div class="accordion" id="pgsaccordion1">
-                  <div class="accordion-item">
-                    <h5 class="accordion-header" id="headingFive">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> What is the purpose of the settings.py file?</button>
-                    </h5>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#pgsaccordion1">
-                      <div class="accordion-body">The settings.py file contains configurations for your Django project, such as database settings, installed apps, middleware, and templates.
+            </div>
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What is the difference between MVC and MVT in Django?</button>
+              </h5>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#pgsaccordion">
+                <div class="accordion-body">C#
+                  Django follows the Model-View-Template (MVT) pattern:
 
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h5 class="accordion-header" id="headingSix">
-                      <button
-                      class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                      How does Django handle static files?
-                      </button>
-                    </h5>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#pgsaccordion1">
-                      <div class="accordion-body">Django uses the STATICFILES_DIRS and STATIC_URL settings to manage static files like CSS, JavaScript, and images. For deployment, you use the collectstatic command to gather static files in a single location.</div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h5 class="accordion-header" id="headingSeven">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">What is Django's built-in admin interface?</button>
-                    </h5>
-                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#pgsaccordion1">
-                      <div class="accordion-body">The Django admin interface is a powerful, out-of-the-box tool for managing application data, allowing CRUD operations on your models without additional coding.</div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <h5 class="accordion-header" id="headingEight">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">What is the purpose of migrations in Django?</button>
-                    </h5>
-                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#pgsaccordion1">
-                      <div class="accordion-body">Migrations are used to apply changes to the database schema. </div>
-                    </div>
-                  </div>
-                </div>
+                  Model: Manages data and database interactions.
+                  View: Handles business logic and connects the model to the template.
+                  Template: Displays the data to the user in the desired format.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">What is Django ORM?</button>
+              </h5>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#pgsaccordion">
+                <div class="accordion-body">Django ORM (Object-Relational Mapping) allows developers to interact with the database using Python objects instead of writing raw SQL queries.</div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- faq -->
-      <!--=================================
+        <div class="col-md-6 mt-4 mt-md-0">
+          <div class="accordion" id="pgsaccordion1">
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> What is the purpose of the settings.py file?</button>
+              </h5>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#pgsaccordion1">
+                <div class="accordion-body">The settings.py file contains configurations for your Django project, such as database settings, installed apps, middleware, and templates.
+
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingSix">
+                <button
+                class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                How does Django handle static files?
+                </button>
+              </h5>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#pgsaccordion1">
+                <div class="accordion-body">Django uses the STATICFILES_DIRS and STATIC_URL settings to manage static files like CSS, JavaScript, and images. For deployment, you use the collectstatic command to gather static files in a single location.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">What is Django's built-in admin interface?</button>
+              </h5>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#pgsaccordion1">
+                <div class="accordion-body">The Django admin interface is a powerful, out-of-the-box tool for managing application data, allowing CRUD operations on your models without additional coding.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">What is the purpose of migrations in Django?</button>
+              </h5>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#pgsaccordion1">
+                <div class="accordion-body">Migrations are used to apply changes to the database schema. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- faq -->
+
+  <!--=================================
       Site Footer -->
-      <footer class="site-footer footer-dark">
-        <div class="footer-main">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-3 col-md-5">
-                <div class="widget widget-address-info">
-                  <h5 class="widget-title">Where To Find Us</h5>
-                  <ul class="address-info-list">
-                    <li><i class="icon"><img class="img-fluid" src="images/svg/address-info-contacts.svg" alt="" /></i><span class="info"><span>17504 Carlton Cuevas Rd </span>Gulfport, MS, 39503</span></li>
-                    <li><i class="icon"><img class="img-fluid" src="images/svg/address-info-headphone.svg" alt="" /></i><span class="info"><span>001123456789 </span>Mon-fri 8:30am 6:30pm</span></li>
-                    <li><i class="icon"><img class="img-fluid" src="images/svg/address-info-email.svg" alt="" /></i><span class="info"><span>Info@example.com </span>24x7 online support</span></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-xl-5 col-md-7">
-                <div class="widget">
-                  <h5 class="widget-title">Newsletter</h5>
-                  <div class="widget widget-newsletter mb-4 pb-2">
-                    <form class="newsletter-form">
-                      <input type="text" class="form-control" placeholder="Enter Your Email">
-                      <button type="submit" class="subscribe-btn"><i class="fa-solid fa-paper-plane"></i></button>
-                    </form>
-                  </div>
-                  <div class="widget widget-menu">
-                    <h6 class="widget-title">Quick Links</h6>
-                    <ul class="list-unstyled list-col-3 mb-0">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about-us.html">About us</a></li>
-                      <li><a href="team.html">Team</a></li>
-                      <li><a href="team-single.html">Team Single</a></li>
-                      <li><a href="service.html">Service</a></li>
-                      <li><a href="service-detail.html">Service Single</a></li>
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="blog-detail.html">Blog Single</a></li>
-                      <li><a href="contact-us.html">Contact</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-md-12 ms-auto">
-                <div class="widget widget-info">
-                  <h5 class="widget-title">Call Center</h5>
-                  <a class="number" href="tel:+1800555500">1-800-555-500</a>
-                  <h6 class="title">and get a free estimate</h6>
-                </div>
-                <div class="widget-socail">
-                  <ul class="socail-icon">
-                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fab fa-youtube"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="footer-copyright">
+     
+      
+        <div class="footer-copyright bg-dark">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6"><p><a class="footer-logo" href="index.html"><img class="img-fluid logo-image" src="images/TECHTENT LOGO 2.png" alt="logo" /></a></p></div>
@@ -584,9 +528,13 @@
             </div>
           </div>
         </div>
-      </footer>
+    
 
       <!--=================================
+        
+      </div>
+
+    
       Back To Top -->
       <div class="back-to-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
