@@ -329,16 +329,188 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 }
 
 ::-webkit-scrollbar-track {
-  background: #77BEFF;
+  background: #122436;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #BB923E;
+  background: #ffff;
 }
 /* ::-webkit-scrollbar-thumb:hover {
   background: #555;
 } */
 
+.success-container {
+  /* border-bottom: 2px solid red; */
+  width: fit-content;
+}
+.rating-falied-number {
+  color: red;
+}
+.rating-success-number {
+  color: #B2C144;
+}
+
+.success , .falied {
+  color: #92D050;
+  width: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.steps-title,.steps-title-des {
+  background-color: #006666;
+  width: fit-content;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 40px;
+  color: #FFF2CC;
+}
+.steps-title-des {
+color: #000;
+border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.step {
+  font-size: 20px;
+  background-color: #92D050;
+  color: #000;
+  border-radius: 50%;
+  padding: 10px;
+  /* transition: 0.5s; */
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  /* transition: all 3s; */
+
+}
+
+.step:hover {
+  background-color: #00B0F0;
+  outline: 3px solid #92D050;
+  /* text-align: center !important; */
+
+}
+
+
+.steps-container {
+  position: relative;
+ 
+}
+
+.step-content {
+  position: absolute;
+  left: -50px;
+  top: 60px;
+  width: 800px;
+  background-color: #232324;
+  z-index: 555;
+  text-align: start;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 2px solid #00B0F0;
+visibility:hidden ;
+ display: flex;
+ transition: 0.3s;
+
+  
+}
+
+@media(max-width: 700px) {
+  .step-content {
+    flex-direction: column;
+    width: 300px;
+    left: -50px;
+    top: 120px;
+   
+    
+   
+  }
+  .step-image-container {
+    display: none;
+  }
+
+  .steps-container  {
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+}
+
+.step-number {
+  background-color: #000;
+  border: 1px solid #00B0F0;
+  color: #00B0F0 ;
+  padding: 10px 40px ;
+  border-radius: 30px;
+  width: fit-content;
+  font-weight: normal !important;
+  /* font-size: 15px !important; */
+
+
+}
+.step-detalis {
+  color: #92D050;
+
+}
+
+
+.step:hover .step-content {
+  /* display: flex !important; */
+  /* top: 0; Push the hidden item into view */
+
+  /* display: flex; */
+  visibility: visible;
+  
+
+
+}
 
 
 
@@ -4316,7 +4488,7 @@ div[cursor-type="arrow"] .owl-carousel,
 
 .history-wrapper .history-info .history-year-lg {
   font-family: "Russo One", sans-serif;
-  font-size: 110px;
+  font-size: 24px;
   writing-mode: vertical-lr;
   transform: scale(-1);
   align-self: center;
@@ -4357,7 +4529,7 @@ div[cursor-type="arrow"] .owl-carousel,
     padding: 40px;
   }
   .history-wrapper .history-info .history-year-lg {
-    font-size: 80px;
+    font-size: 40px;
   }
 }
 
