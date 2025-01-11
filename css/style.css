@@ -572,6 +572,23 @@ visibility:hidden ;
 }
 
 
+.section-image {
+  position: absolute;
+  left: 352px;
+  top: 30px;
+  width: 800px;
+}
+
+@media(max-width: 1000px) {
+  .section-image {
+    display: none;
+  }
+}
+
+
+.team-title-color {
+  color: #00B0F0;
+}
 
 
 
