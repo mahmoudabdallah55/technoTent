@@ -3400,11 +3400,11 @@ blockquote.blockquote-style-1:before {
 }
 
 .counter.counter-style-1 {
-  position: relative;
-  padding: 20px 0;
+  /* position: relative; */
+  /* padding: 20px 0;
   border-bottom: 3px solid rgba(255, 255, 255, 0.1);
   max-width: 305px;
-  margin-left: 20px;
+  margin-left: 20px; */
 }
 
 .counter.counter-style-1 .counter-info {
